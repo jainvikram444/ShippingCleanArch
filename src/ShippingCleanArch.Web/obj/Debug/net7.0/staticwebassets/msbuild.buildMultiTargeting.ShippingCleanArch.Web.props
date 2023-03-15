@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ShippingCleanArch.Web.props" />
+</Project>

@@ -1,0 +1,254 @@
+2023-03-15 02:51:36.745 +05:30 [INF] Registered 5 endpoints in 112 milliseconds.
+2023-03-15 02:51:36.842 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:37.161 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:37.402 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.468 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.569 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:37.572 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.579 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.603 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/api/projects - -
+2023-03-15 02:51:37.640 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:37.659 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.667 +05:30 [INF] Route matched with {action = "List", controller = "Projects", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller ShippingCleanArch.Web.Api.ProjectsController (ShippingCleanArch.Web).
+2023-03-15 02:51:37.681 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShippingCleanArch.Web.ApiModels.ProjectDTO, ShippingCleanArch.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-15 02:51:37.698 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web) in 28.4267ms
+2023-03-15 02:51:37.698 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.702 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/api/projects - - - 200 43 application/json;+charset=utf-8 100.4243ms
+2023-03-15 02:51:37.753 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:37.767 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:37.780 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:37.781 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.782 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.794 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:37.794 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.795 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.797 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects - -
+2023-03-15 02:51:37.802 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:37.804 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.811 +05:30 [INF] Route matched with {action = "Handle", controller = "List", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.ProjectListResponse]] HandleAsync(System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List (ShippingCleanArch.Web).
+2023-03-15 02:51:37.818 +05:30 [INF] Executing OkObjectResult, writing value of type 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.ProjectListResponse'.
+2023-03-15 02:51:37.820 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web) in 8.7782ms
+2023-03-15 02:51:37.820 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.821 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects - - - 200 45 application/json;+charset=utf-8 23.6320ms
+2023-03-15 02:51:37.843 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:37.855 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:37.864 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:37.865 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.865 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.873 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:37.874 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.894 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:37.897 +05:30 [INF] Request starting HTTP/1.1 PATCH http://localhost/api/projects/1/complete/1 application/json;+charset=utf-8 4
+2023-03-15 02:51:37.911 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:37.913 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.920 +05:30 [INF] Route matched with {action = "Complete", controller = "Projects", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Complete(Int32, Int32) on controller ShippingCleanArch.Web.Api.ProjectsController (ShippingCleanArch.Web).
+2023-03-15 02:51:37.970 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:37.972 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-15 02:51:37.972 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web) in 52.2166ms
+2023-03-15 02:51:37.972 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web)'
+2023-03-15 02:51:37.972 +05:30 [INF] Request finished HTTP/1.1 PATCH http://localhost/api/projects/1/complete/1 application/json;+charset=utf-8 4 - 200 - - 75.1339ms
+2023-03-15 02:51:37.985 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:37.998 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:38.014 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:38.015 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.015 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.022 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:38.023 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.023 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.025 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects/1 - -
+2023-03-15 02:51:38.029 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:38.030 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.034 +05:30 [INF] Route matched with {action = "Handle", controller = "GetById", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse]] HandleAsync(ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdRequest, System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById (ShippingCleanArch.Web).
+2023-03-15 02:51:38.045 +05:30 [INF] Executing OkObjectResult, writing value of type 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse'.
+2023-03-15 02:51:38.048 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web) in 14.0165ms
+2023-03-15 02:51:38.048 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.048 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects/1 - - - 200 420 application/json;+charset=utf-8 23.4426ms
+2023-03-15 02:51:38.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects/0 - -
+2023-03-15 02:51:38.058 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.058 +05:30 [INF] Route matched with {action = "Handle", controller = "GetById", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse]] HandleAsync(ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdRequest, System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById (ShippingCleanArch.Web).
+2023-03-15 02:51:38.060 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-03-15 02:51:38.067 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web) in 7.9959ms
+2023-03-15 02:51:38.067 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.067 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects/0 - - - 404 161 application/problem+json;+charset=utf-8 9.9738ms
+2023-03-15 02:51:38.081 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:38.097 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:38.106 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:38.106 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.107 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.116 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:38.116 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.116 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.118 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors - -
+2023-03-15 02:51:38.141 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors - - - 200 - application/json;+charset=utf-8 22.4134ms
+2023-03-15 02:51:38.163 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:38.174 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:38.183 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:38.184 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.184 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.192 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:38.192 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.193 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.194 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/0 - -
+2023-03-15 02:51:38.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/0 - - - 404 - - 26.7717ms
+2023-03-15 02:51:38.224 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - -
+2023-03-15 02:51:38.228 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - - - 200 - application/json;+charset=utf-8 4.0038ms
+2023-03-15 02:51:38.247 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:38.259 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:38.267 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:38.268 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.268 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.276 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:38.276 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.277 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.278 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - -
+2023-03-15 02:51:38.281 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:38.300 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.302 +05:30 [INF] Route matched with {action = "Info", controller = "Meta", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Info() on controller ShippingCleanArch.Web.Api.MetaController (ShippingCleanArch.Web).
+2023-03-15 02:51:38.305 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-15 02:51:38.306 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web) in 3.6881ms
+2023-03-15 02:51:38.306 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.306 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - - - 200 - text/plain;+charset=utf-8 28.1551ms
+2023-03-15 02:51:38.320 +05:30 [INF] Registered 5 endpoints in 140 milliseconds.
+2023-03-15 02:51:38.334 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:51:38.348 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:51:38.349 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.349 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.367 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:51:38.367 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:51:38.367 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:51:38.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ - -
+2023-03-15 02:51:38.372 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:51:38.374 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.375 +05:30 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ShippingCleanArch.Web.Controllers.HomeController (ShippingCleanArch.Web).
+2023-03-15 02:51:38.380 +05:30 [INF] Executing ViewResult, running view Index.
+2023-03-15 02:51:38.444 +05:30 [INF] Executed ViewResult - view Index executed in 67.7569ms.
+2023-03-15 02:51:38.445 +05:30 [INF] Executed action ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web) in 69.4097ms
+2023-03-15 02:51:38.445 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-15 02:51:38.446 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 77.5203ms
+2023-03-15 02:52:50.783 +05:30 [INF] Registered 5 endpoints in 138 milliseconds.
+2023-03-15 02:52:50.887 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:51.197 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:51.432 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:51.486 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:51.582 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:51.587 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:51.596 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:51.626 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/0 - -
+2023-03-15 02:52:52.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/0 - - - 404 - - 481.5229ms
+2023-03-15 02:52:52.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors/1 - -
+2023-03-15 02:52:52.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors/1 - - - 200 - application/json;+charset=utf-8 25.0965ms
+2023-03-15 02:52:52.205 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.224 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.238 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.239 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.240 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.255 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.255 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.255 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.257 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Contributors - -
+2023-03-15 02:52:52.281 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Contributors - - - 200 - application/json;+charset=utf-8 24.4188ms
+2023-03-15 02:52:52.316 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.334 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.350 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.351 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.352 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.365 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.366 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.366 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.368 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects/1 - -
+2023-03-15 02:52:52.376 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:52.410 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.479 +05:30 [INF] Route matched with {action = "Handle", controller = "GetById", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse]] HandleAsync(ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdRequest, System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById (ShippingCleanArch.Web).
+2023-03-15 02:52:52.549 +05:30 [INF] Executing OkObjectResult, writing value of type 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse'.
+2023-03-15 02:52:52.567 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web) in 84.1679ms
+2023-03-15 02:52:52.567 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects/1 - - - 200 420 application/json;+charset=utf-8 199.5442ms
+2023-03-15 02:52:52.579 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects/0 - -
+2023-03-15 02:52:52.580 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.580 +05:30 [INF] Route matched with {action = "Handle", controller = "GetById", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdResponse]] HandleAsync(ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetProjectByIdRequest, System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById (ShippingCleanArch.Web).
+2023-03-15 02:52:52.584 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-03-15 02:52:52.592 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web) in 11.6922ms
+2023-03-15 02:52:52.593 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.GetById.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.593 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects/0 - - - 404 161 application/problem+json;+charset=utf-8 13.9403ms
+2023-03-15 02:52:52.604 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.617 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.636 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.636 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.637 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.646 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.646 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.646 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/Projects - -
+2023-03-15 02:52:52.651 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:52.654 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.658 +05:30 [INF] Route matched with {action = "Handle", controller = "List", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ShippingCleanArch.Web.Endpoints.ProjectEndpoints.ProjectListResponse]] HandleAsync(System.Threading.CancellationToken) on controller ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List (ShippingCleanArch.Web).
+2023-03-15 02:52:52.664 +05:30 [INF] Executing OkObjectResult, writing value of type 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.ProjectListResponse'.
+2023-03-15 02:52:52.666 +05:30 [INF] Executed action ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web) in 8.4687ms
+2023-03-15 02:52:52.667 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Endpoints.ProjectEndpoints.List.HandleAsync (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/Projects - - - 200 45 application/json;+charset=utf-8 18.9710ms
+2023-03-15 02:52:52.683 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.707 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.718 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.718 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.719 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.729 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.729 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.729 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.730 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/info - -
+2023-03-15 02:52:52.734 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:52.736 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.737 +05:30 [INF] Route matched with {action = "Info", controller = "Meta", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Info() on controller ShippingCleanArch.Web.Api.MetaController (ShippingCleanArch.Web).
+2023-03-15 02:52:52.743 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-15 02:52:52.745 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web) in 8.2834ms
+2023-03-15 02:52:52.745 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.MetaController.Info (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.745 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/info - - - 200 - text/plain;+charset=utf-8 14.9188ms
+2023-03-15 02:52:52.767 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.781 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.793 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.793 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.794 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.802 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.803 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.803 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.804 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/api/projects - -
+2023-03-15 02:52:52.809 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:52.813 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.816 +05:30 [INF] Route matched with {action = "List", controller = "Projects", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller ShippingCleanArch.Web.Api.ProjectsController (ShippingCleanArch.Web).
+2023-03-15 02:52:52.818 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShippingCleanArch.Web.ApiModels.ProjectDTO, ShippingCleanArch.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-15 02:52:52.821 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web) in 4.4768ms
+2023-03-15 02:52:52.821 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.821 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/api/projects - - - 200 43 application/json;+charset=utf-8 16.4520ms
+2023-03-15 02:52:52.847 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.864 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.878 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.879 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.879 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.894 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:52.894 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.895 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:52.898 +05:30 [INF] Request starting HTTP/1.1 PATCH http://localhost/api/projects/1/complete/1 application/json;+charset=utf-8 4
+2023-03-15 02:52:52.913 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:52.916 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.921 +05:30 [INF] Route matched with {action = "Complete", controller = "Projects", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Complete(Int32, Int32) on controller ShippingCleanArch.Web.Api.ProjectsController (ShippingCleanArch.Web).
+2023-03-15 02:52:52.931 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.934 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-03-15 02:52:52.934 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web) in 12.4038ms
+2023-03-15 02:52:52.934 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.ProjectsController.Complete (ShippingCleanArch.Web)'
+2023-03-15 02:52:52.934 +05:30 [INF] Request finished HTTP/1.1 PATCH http://localhost/api/projects/1/complete/1 application/json;+charset=utf-8 4 - 200 - - 36.0007ms
+2023-03-15 02:52:52.953 +05:30 [INF] Registered 5 endpoints in 164 milliseconds.
+2023-03-15 02:52:52.971 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-15 02:52:52.987 +05:30 [INF] Saved 0 entities to in-memory store.
+2023-03-15 02:52:52.987 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:52.988 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:53.009 +05:30 [INF] Saved 6 entities to in-memory store.
+2023-03-15 02:52:53.009 +05:30 [INF] Saved 2 entities to in-memory store.
+2023-03-15 02:52:53.009 +05:30 [INF] Saved 4 entities to in-memory store.
+2023-03-15 02:52:53.012 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost/ - -
+2023-03-15 02:52:53.017 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-15 02:52:53.019 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-15 02:52:53.020 +05:30 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ShippingCleanArch.Web.Controllers.HomeController (ShippingCleanArch.Web).
+2023-03-15 02:52:53.029 +05:30 [INF] Executing ViewResult, running view Index.
+2023-03-15 02:52:53.105 +05:30 [INF] Executed ViewResult - view Index executed in 81.7692ms.
+2023-03-15 02:52:53.105 +05:30 [INF] Executed action ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web) in 84.6729ms
+2023-03-15 02:52:53.105 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-15 02:52:53.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost/ - - - 200 - text/html;+charset=utf-8 93.8680ms

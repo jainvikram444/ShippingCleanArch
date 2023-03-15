@@ -1,0 +1,7 @@
+{
+  "ShippingCleanArch.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.Core",
+  "ShippingCleanArch.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.Infrastructure",
+  "ShippingCleanArch.SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.SharedKernel",
+  "ShippingCleanArch.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\tests\\ShippingCleanArch.UnitTests",
+  "ShippingCleanArch.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.Web"
+}

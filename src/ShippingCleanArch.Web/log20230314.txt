@@ -1,0 +1,134 @@
+2023-03-14 23:56:19.512 +05:30 [INF] Registered 5 endpoints in 887 milliseconds.
+2023-03-14 23:56:20.069 +05:30 [INF] User profile is available. Using 'C:\Users\jainv\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-14 23:56:21.462 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-14 23:56:21.603 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL
+);
+2023-03-14 23:56:21.606 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Projects" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Projects" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Priority" INTEGER NOT NULL
+);
+2023-03-14 23:56:21.608 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ToDoItems" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_ToDoItems" PRIMARY KEY AUTOINCREMENT,
+    "Title" TEXT NOT NULL,
+    "Description" TEXT NOT NULL,
+    "ContributorId" INTEGER NULL,
+    "IsDone" INTEGER NOT NULL,
+    "ProjectId" INTEGER NULL,
+    CONSTRAINT "FK_ToDoItems_Projects_ProjectId" FOREIGN KEY ("ProjectId") REFERENCES "Projects" ("Id")
+);
+2023-03-14 23:56:21.610 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_ToDoItems_ProjectId" ON "ToDoItems" ("ProjectId");
+2023-03-14 23:56:21.862 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "ToDoItems" AS "t")
+2023-03-14 23:56:21.913 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Name", "p"."Priority"
+FROM "Projects" AS "p"
+2023-03-14 23:56:21.926 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."ContributorId", "t"."Description", "t"."IsDone", "t"."ProjectId", "t"."Title"
+FROM "ToDoItems" AS "t"
+2023-03-14 23:56:21.933 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name"
+FROM "Contributors" AS "c"
+2023-03-14 23:56:22.120 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name")
+VALUES (@p0)
+RETURNING "Id";
+2023-03-14 23:56:22.143 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name")
+VALUES (@p0)
+RETURNING "Id";
+2023-03-14 23:56:22.235 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 12), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Projects" ("Name", "Priority")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2023-03-14 23:56:22.247 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 31), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (Size = 18)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ToDoItems" ("ContributorId", "Description", "IsDone", "ProjectId", "Title")
+VALUES (@p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-03-14 23:56:22.252 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 81), @p2='?' (DbType = Boolean), @p3='?' (DbType = Int32), @p4='?' (Size = 15)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ToDoItems" ("ContributorId", "Description", "IsDone", "ProjectId", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2023-03-14 23:56:22.255 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 59), @p2='?' (DbType = Boolean), @p3='?' (DbType = Int32), @p4='?' (Size = 20)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ToDoItems" ("ContributorId", "Description", "IsDone", "ProjectId", "Title")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2023-03-14 23:56:22.656 +05:30 [INF] Now listening on: http://localhost:57679
+2023-03-14 23:56:22.659 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-14 23:56:22.660 +05:30 [INF] Hosting environment: Development
+2023-03-14 23:56:22.661 +05:30 [INF] Content root path: C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web
+2023-03-14 23:56:24.049 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/ - -
+2023-03-14 23:56:24.421 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-03-14 23:56:24.482 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-14 23:56:24.503 +05:30 [INF] Route matched with {action = "Index", controller = "Home", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ShippingCleanArch.Web.Controllers.HomeController (ShippingCleanArch.Web).
+2023-03-14 23:56:24.539 +05:30 [INF] Executing ViewResult, running view Index.
+2023-03-14 23:56:24.943 +05:30 [INF] Executed ViewResult - view Index executed in 419.0774ms.
+2023-03-14 23:56:24.952 +05:30 [INF] Executed action ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web) in 443.1446ms
+2023-03-14 23:56:24.955 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Controllers.HomeController.Index (ShippingCleanArch.Web)'
+2023-03-14 23:56:25.054 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/ - - - 200 - text/html;+charset=utf-8 1010.8053ms
+2023-03-14 23:56:25.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-03-14 23:56:25.183 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/ShippingCleanArch.Web.styles.css?v=RJ9d91AYKAWW7C3tc7gAKqX_Lzt36rq7CT134uRuoPo - -
+2023-03-14 23:56:25.183 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2023-03-14 23:56:25.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/jquery/dist/jquery.min.js - -
+2023-03-14 23:56:25.238 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-03-14 23:56:25.285 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-03-14 23:56:25.321 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\js\site.js'
+2023-03-14 23:56:25.321 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\css\site.css'
+2023-03-14 23:56:25.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 44.0640ms
+2023-03-14 23:56:25.321 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-03-14 23:56:25.321 +05:30 [INF] Sending file. Request path: '/ShippingCleanArch.Web.styles.css'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\obj\Debug\net7.0\scopedcss\bundle\ShippingCleanArch.Web.styles.css'
+2023-03-14 23:56:25.330 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 146.8695ms
+2023-03-14 23:56:25.333 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 184.8590ms
+2023-03-14 23:56:25.334 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/ShippingCleanArch.Web.styles.css?v=RJ9d91AYKAWW7C3tc7gAKqX_Lzt36rq7CT134uRuoPo - - - 200 1138 text/css 151.3568ms
+2023-03-14 23:56:25.335 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - -
+2023-03-14 23:56:25.338 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - -
+2023-03-14 23:56:25.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 10.5226ms
+2023-03-14 23:56:25.352 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-03-14 23:56:25.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 text/javascript 124.3481ms
+2023-03-14 23:56:25.370 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-03-14 23:56:25.372 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/lib/jquery/dist/jquery.min.js - - - 200 89478 text/javascript 151.1377ms
+2023-03-14 23:56:25.476 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 137.4396ms
+2023-03-14 23:56:25.616 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/favicon.ico - -
+2023-03-14 23:56:25.628 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Web\wwwroot\favicon.ico'
+2023-03-14 23:56:25.631 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/favicon.ico - - - 200 5430 image/x-icon 15.7671ms
+2023-03-14 23:56:30.407 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger - -
+2023-03-14 23:56:30.414 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger - - - 301 0 - 7.2508ms
+2023-03-14 23:56:30.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/index.html - -
+2023-03-14 23:56:30.653 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/index.html - - - 200 - text/html;charset=utf-8 229.9351ms
+2023-03-14 23:56:30.655 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui.css - -
+2023-03-14 23:56:30.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-bundle.js - -
+2023-03-14 23:56:30.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - -
+2023-03-14 23:56:30.664 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-standalone-preset.js - -
+2023-03-14 23:56:30.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/_vs/browserLink - -
+2023-03-14 23:56:30.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_framework/aspnetcore-browser-refresh.js - - - 200 12012 application/javascript;+charset=utf-8 5.0917ms
+2023-03-14 23:56:30.676 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-03-14 23:56:30.692 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-03-14 23:56:30.700 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui.css - - - 200 143943 text/css 44.7892ms
+2023-03-14 23:56:30.703 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 39.2622ms
+2023-03-14 23:56:30.715 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-03-14 23:56:30.717 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.5535ms
+2023-03-14 23:56:30.718 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 54.1433ms
+2023-03-14 23:56:31.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - -
+2023-03-14 23:56:31.062 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/swagger/favicon-32x32.png - -
+2023-03-14 23:56:31.064 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-14 23:56:31.067 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/favicon-32x32.png - - - 200 628 image/png 4.1753ms
+2023-03-14 23:56:31.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.4980ms
+2023-03-14 23:56:41.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:57679/api/Projects - -
+2023-03-14 23:56:41.515 +05:30 [INF] Executing endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-14 23:56:41.539 +05:30 [INF] Route matched with {action = "List", controller = "Projects", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller ShippingCleanArch.Web.Api.ProjectsController (ShippingCleanArch.Web).
+2023-03-14 23:56:41.615 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Name", "p"."Priority"
+FROM "Projects" AS "p"
+2023-03-14 23:56:41.636 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShippingCleanArch.Web.ApiModels.ProjectDTO, ShippingCleanArch.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-03-14 23:56:41.788 +05:30 [INF] Executed action ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web) in 242.9778ms
+2023-03-14 23:56:41.790 +05:30 [INF] Executed endpoint 'ShippingCleanArch.Web.Api.ProjectsController.List (ShippingCleanArch.Web)'
+2023-03-14 23:56:41.796 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:57679/api/Projects - - - 200 43 application/json;+charset=utf-8 290.0016ms

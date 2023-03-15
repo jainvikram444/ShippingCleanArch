@@ -1,0 +1,15 @@
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\bin\Debug\net7.0\ShippingCleanArch.Core.deps.json
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\bin\Debug\net7.0\ShippingCleanArch.Core.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\bin\Debug\net7.0\ShippingCleanArch.Core.pdb
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\bin\Debug\net7.0\ShippingCleanArch.SharedKernel.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\bin\Debug\net7.0\ShippingCleanArch.SharedKernel.pdb
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.csproj.AssemblyReference.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.AssemblyInfoInputs.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.AssemblyInfo.cs
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.csproj.CoreCompileInputs.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.csproj.CopyComplete
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\refint\ShippingCleanArch.Core.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ShippingCleanArch.Core.pdb
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.Core\obj\Debug\net7.0\ref\ShippingCleanArch.Core.dll

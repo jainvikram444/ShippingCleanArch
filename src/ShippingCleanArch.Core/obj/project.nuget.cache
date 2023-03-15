@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "hF19mmP9Sg37nmCOQHxmuF75I2T1XKxeCHonJJGVPpZs6B/AbwmsA2yHFIoVQC7GbwJmdhV7qYTj/JiqROQvXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.Core\\ShippingCleanArch.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jainv\\.nuget\\packages\\ardalis.guardclauses\\4.0.1\\ardalis.guardclauses.4.0.1.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\ardalis.result\\4.1.0\\ardalis.result.4.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\ardalis.smartenum\\2.1.0\\ardalis.smartenum.2.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\jetbrains.annotations\\2021.3.0\\jetbrains.annotations.2021.3.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

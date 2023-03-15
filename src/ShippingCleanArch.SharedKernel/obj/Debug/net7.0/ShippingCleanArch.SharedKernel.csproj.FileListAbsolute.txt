@@ -1,0 +1,12 @@
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\bin\Debug\net7.0\ShippingCleanArch.SharedKernel.deps.json
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\bin\Debug\net7.0\ShippingCleanArch.SharedKernel.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\bin\Debug\net7.0\ShippingCleanArch.SharedKernel.pdb
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.AssemblyInfo.cs
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\refint\ShippingCleanArch.SharedKernel.dll
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ShippingCleanArch.SharedKernel.pdb
+C:\Users\jainv\OneDrive\Documents\vikram\projects\Dot-NET\core7\ShippingCleanArch\src\ShippingCleanArch.SharedKernel\obj\Debug\net7.0\ref\ShippingCleanArch.SharedKernel.dll

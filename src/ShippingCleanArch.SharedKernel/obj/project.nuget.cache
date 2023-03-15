@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5FDwEHvgqUSnlp+NiTKNifo+PiZSNp7mSrTtXX3I2V+aVm4OvKwnV+Uy5pecoYd2x3SFJ6l+4wSbLxI3pJBFlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jainv\\OneDrive\\Documents\\vikram\\projects\\Dot-NET\\core7\\ShippingCleanArch\\src\\ShippingCleanArch.SharedKernel\\ShippingCleanArch.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jainv\\.nuget\\packages\\ardalis.specification\\6.1.0\\ardalis.specification.6.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\jainv\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
